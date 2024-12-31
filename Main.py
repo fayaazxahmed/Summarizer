@@ -14,7 +14,8 @@ def main():
     file = st.file_uploader("Attach File", type="pdf")
     generate = st.button("Generate Summary")
 
-    os.environ["OPENAI_API_KEY"] = "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"
+    #Enter OpenAI API key below
+    os.environ["OPENAI_API_KEY"] = "" 
 
     if generate:
         st.divider()
